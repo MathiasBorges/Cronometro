@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+body{
+	background: #2f2e3a;
+	width: 100vw;
+	height: 50vh;
+}
+.bloco{
+	color: white;
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	margin: 35vh;
+	gap: 5px;
+}
+button{
+	color: white;
+	border-radius: 3px;
+	border:none;
+	width: 5em;
+	margin: 0.2em;
+	font-family: cursive;
+	font-size: 20px;
+	cursor: pointer;
+	border: 2px solid;
+	transition: 0.2s;
+}
+button:hover{
+	box-shadow: 0 0 25px black;
+	scale: 1.1;
+}
+.startbtn{background: forestgreen;} 
+.pausebtn{background: #bbbb0a;}
+.stopbtn{background: #911515;} 
+span{
+	margin: 1px;
+	font-size: 1.44em;
+	font-family: cursive;, sans-serif;
+}
