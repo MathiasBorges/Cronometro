@@ -6,15 +6,19 @@
 body{
 	background: #2f2e3a;
 	width: 100vw;
-	height: 50vh;
+	height: 100vh;
+
+display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .bloco{
 	color: white;
-	display: grid;
+	display: flex;
 	justify-content: center;
-	justify-items: center;
-	margin: 35vh;
+	align-items: center;
 	gap: 5px;
+padding:10vw;
 }
 button{
 	color: white;
